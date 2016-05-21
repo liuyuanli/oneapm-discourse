@@ -2,7 +2,7 @@
 
 ## 安装
 
- 1. 用运行docker的用户名 SSH 进入你的 discourse 服务器into your forum server as the user running docker (probably root)
+ 1. 用运行docker的用户名 SSH 进入 discourse 服务器
  2. `cd /var/discourse`
  3. 打开文件 `containers/app.yml`
  4. 找到 `env:` , 增加 `ONEAPM_LICENSE_KEY: <your_license_key>`
@@ -25,6 +25,6 @@ $ ./launcher start app
 
 ## 查看性能
 
-[oneapm]: http://www.oneapm.com/
+[http://wwww.oneapm.com](http://user.oneapm.com/pages/v2/login)
 
 
