@@ -6,7 +6,7 @@
 ENV['BWCONFIG'] = File.expand_path('../oneapm.yml', __FILE__)
 gem 'oneapm_rpm'
 
-OneAPM::Control.instance.init_plugin config: Rails.configuration
+OneApm::Probe.init Rails.configuration
 
 after_initialize do
   ForumsController.oneapm_ignore only: [:status]
