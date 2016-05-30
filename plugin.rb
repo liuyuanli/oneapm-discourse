@@ -3,7 +3,7 @@
 # version: 0.0.1
 # authors: Sam Saffron, David Celis
 
-ENV['BWCONFIG'] = File.expand_path('../oneapm.yml', __FILE__)
+ENV['ONEAPM_CONFIG'] = File.expand_path('../oneapm.yml', __FILE__)
 gem 'oneapm_rpm', '1.3.6'
 
 OneApm::Probe.init Rails.configuration
